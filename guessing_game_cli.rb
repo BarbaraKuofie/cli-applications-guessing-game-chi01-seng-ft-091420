@@ -10,6 +10,6 @@ if user_input == "exit"
 elsif user_input == random 
   puts "You guessed the correct number!"
  else 
-  puts "Sorry! The computer guessed #{random}"
+  puts "Sorry! The computer guessed #{random}."
   end 
 end 
