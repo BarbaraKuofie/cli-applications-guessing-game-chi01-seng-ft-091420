@@ -6,10 +6,10 @@ puts "Guess a number between 1 and 6"
 user_input = gets.chomp
  ## binding.pry 
 if user_input == "exit"
- return  "Goodbye!"
+ puts "Goodbye!"
 elsif user_input == random 
-  return "You guessed the correct number!"
+  puts "You guessed the correct number!"
  else 
-  return "Sorry! The computer guessed #{random}"
+  puts "Sorry! The computer guessed #{random}"
   end 
 end 
